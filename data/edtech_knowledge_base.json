@@ -1,0 +1,83 @@
+{
+  "organization": {
+    "name": "igebra.ai / AI Ready School",
+    "website": "https://www.aireadyschool.com/",
+    "description": "AI-focused education ecosystem for students, teachers and schools, with an emphasis on understanding AI, computational thinking, creativity and personalized learning.",
+    "support_email": "hey@aireadyschool.com",
+    "support_phone": "+91 9100013885",
+    "knowledge_note": "The four program records below are assignment-oriented demo records. They are designed to demonstrate deterministic RAG retrieval and tool calling; current commercial availability, pricing and schedules should be verified with the organization before publication."
+  },
+  "programs": [
+    {
+      "id": "ai-edge-kids",
+      "name": "AI Edge for Kids",
+      "short_description": "A practical introduction to artificial intelligence for school-age learners, combining AI concepts, safe AI use, creativity and small projects.",
+      "audience": "Students building their first mental model of AI",
+      "min_age": 9,
+      "max_age": 14,
+      "grades": ["4", "5", "6", "7", "8", "9"],
+      "level": "Beginner",
+      "delivery": ["Online", "School workshop"],
+      "focus": ["AI fundamentals", "Prompting", "AI safety", "Creative AI", "Mini projects", "Critical thinking"],
+      "outcomes": ["Explain what AI models do at a high level", "Write useful prompts", "Evaluate AI answers", "Create a small AI-assisted project"],
+      "prerequisites": ["Curiosity about technology", "Basic computer literacy"],
+      "rag_keywords": ["ai for kids", "artificial intelligence", "ai basics", "school student", "prompting", "ai safety", "beginner", "grade 5", "grade 6", "grade 7", "grade 8", "grade 9"],
+      "demo_pitch": "A friendly first step into AI that prioritizes understanding and responsible experimentation rather than simply using AI tools."
+    },
+    {
+      "id": "coding4ai",
+      "name": "Coding4AI",
+      "short_description": "A coding pathway for students who want to build computational thinking skills and connect programming with practical AI projects.",
+      "audience": "Students ready to move from using technology to building with it",
+      "min_age": 11,
+      "max_age": 17,
+      "grades": ["6", "7", "8", "9", "10", "11", "12"],
+      "level": "Beginner to Intermediate",
+      "delivery": ["Online", "School program", "AI lab"],
+      "focus": ["Python", "Computational thinking", "Data", "APIs", "Machine learning concepts", "AI applications", "Project building"],
+      "outcomes": ["Break real problems into algorithms", "Write and debug beginner Python", "Work with structured data", "Build a small AI-enabled application"],
+      "prerequisites": ["Basic computer usage", "No professional programming experience required"],
+      "rag_keywords": ["coding", "python", "programming", "ai coding", "machine learning", "data", "developer", "app", "algorithm", "grade 7", "grade 8", "grade 9", "grade 10", "grade 11", "grade 12"],
+      "demo_pitch": "Best suited to learners who want hands-on building experience and a bridge from coding fundamentals to AI projects."
+    },
+    {
+      "id": "math-plus-plus-ai",
+      "name": "Math++ for AI",
+      "short_description": "A mathematics and computational-thinking pathway that uses problem solving, patterns and modeling as foundations for AI learning.",
+      "audience": "Students strengthening mathematical reasoning for AI and computational work",
+      "min_age": 10,
+      "max_age": 17,
+      "grades": ["5", "6", "7", "8", "9", "10", "11", "12"],
+      "level": "Beginner to Advanced",
+      "delivery": ["Online", "School program", "Workshop"],
+      "focus": ["Problem solving", "Algebra", "Patterns", "Data reasoning", "Modeling", "Computational thinking"],
+      "outcomes": ["Reason through multi-step problems", "Recognize patterns and relationships", "Connect mathematical models to real-world systems", "Build stronger foundations for AI and data science"],
+      "prerequisites": ["School-level mathematics appropriate to the student's grade"],
+      "rag_keywords": ["math", "mathematics", "algebra", "problem solving", "patterns", "data reasoning", "modeling", "computational thinking", "math for ai", "grade 5", "grade 6", "grade 7", "grade 8", "grade 9", "grade 10"],
+      "demo_pitch": "Useful for learners who want stronger mathematical thinking alongside their AI journey."
+    },
+    {
+      "id": "free-trial-demo",
+      "name": "Free Trial Demo",
+      "short_description": "A no-cost 1-on-1 introductory session used to understand a learner's interests, level and suitable learning pathway.",
+      "audience": "Parents and students evaluating an AI, coding or math learning pathway",
+      "min_age": 6,
+      "max_age": 18,
+      "grades": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+      "level": "All levels",
+      "delivery": ["Online 1-on-1"],
+      "focus": ["Needs discovery", "Sample activity", "Learning pathway recommendation", "Parent questions"],
+      "outcomes": ["Understand the student's current level", "Try a representative activity", "Discuss next steps"],
+      "prerequisites": ["A parent or guardian should participate for younger students"],
+      "rag_keywords": ["free trial", "demo", "trial class", "one on one", "1-on-1", "parent", "book demo", "schedule demo", "try class", "introductory class"],
+      "demo_pitch": "A low-commitment way to explore fit before selecting a longer learning pathway."
+    }
+  ],
+  "principles": [
+    "Use AI to develop student thinking rather than simply provide answers.",
+    "Keep teachers and educators in the learning loop.",
+    "Treat AI literacy as understanding how AI works, its capabilities and its limitations.",
+    "Prefer hands-on projects and computational thinking over passive tool usage.",
+    "Protect student privacy and avoid requesting unnecessary personal information."
+  ]
+}

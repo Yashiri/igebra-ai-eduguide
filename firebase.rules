@@ -1,0 +1,12 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // The application uses Firebase Admin SDK on the server for Firestore.
+    // Keep direct browser access closed by default; the Next.js API verifies
+    // Firebase ID tokens before reading/writing user data.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

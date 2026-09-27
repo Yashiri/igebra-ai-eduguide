@@ -1,0 +1,78 @@
+@import "katex/dist/katex.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fb;
+  color: #102033;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #dbeafe;
+  color: #102033;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.prose-lite p {
+  margin: 0 0 0.7rem;
+}
+
+.prose-lite p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-lite code {
+  border-radius: 0.35rem;
+  background: #eef2ff;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
+}
+
+.edu-markdown .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+.edu-markdown .katex {
+  font-size: 1.05em;
+}
+
+.edu-answer .edu-markdown > :first-child {
+  margin-top: 0;
+}
